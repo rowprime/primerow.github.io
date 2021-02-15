@@ -1,5 +1,5 @@
 body {
-	background-color: linen;
+	background-color: #FAF0E6;
 }
 
 h1 {
@@ -34,7 +34,7 @@ p.blocktext {
 p.copyright {
     position: relative;
     width: 100%;
-    color: linen;
+    color: #FAF0E6;
     line-height: 240px; 
     font-size: 0.8em;
     text-align: center;
