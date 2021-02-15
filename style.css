@@ -24,6 +24,12 @@ footer {
     background-color: black;
 }
 
+#topright img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
 p.blocktext {
     text-align: center;
     margin-left: auto;
