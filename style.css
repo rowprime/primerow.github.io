@@ -24,6 +24,12 @@ footer {
     background-color: black;
 }
 
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
 p.copyright {
     position: relative;
     width: 100%;
