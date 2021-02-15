@@ -27,13 +27,11 @@ footer {
 #topright img {
     position: absolute;
     top: 0px;
-    right: 0px;
+    right: 10px;
 }
 
 p.blocktext {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     width: 8em
 }
 
