@@ -19,7 +19,7 @@ p {
 
 footer {
     position: fixed;
-    height: 100px;
+    height: 150px;
     width: 100%;
     background-color: black;
     bottom: 0;
@@ -30,6 +30,8 @@ footer {
     top: 20px;
     right: 20px;
     line-height: 200%;
+    max-width: 328px;
+    max-height: 120px;
 }
 
 p.blocktext {
