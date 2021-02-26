@@ -33,6 +33,9 @@ footer {
 
 p.blocktext {
     text-align: center;
+    color: white;
+    background-image: url("light_bulbs.jpg");
+    
 }
 
 p.copyright {
