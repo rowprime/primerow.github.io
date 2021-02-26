@@ -36,7 +36,7 @@ p.blocktext {
     color: white;
     background-image: url("light_bulbs.jpg");
 	width: 100%;
-	height: auto;
+	height: cover;
     
 }
 
