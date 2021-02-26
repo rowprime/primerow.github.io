@@ -19,7 +19,7 @@ p {
 
 footer {
     position: fixed;
-    height: 180px;
+    height: 100px;
     width: 100%;
     background-color: black;
     bottom: 0;
@@ -38,6 +38,7 @@ p.blocktext {
     background-image: url("light_bulbs.jpg");
     background-size: cover;   
     background-repeat: no-repeat;
+    height: 450px;
 }
 
 p.copyright {
