@@ -1,10 +1,13 @@
 body {
 	background-color: linen;
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	color: white;
+	text-align: center;
 }
 
 h1 {
-	font-size: 20px;
-	color: black;
+     font-size:20px;
+     color: white;
 }
 
 p {
@@ -20,39 +23,60 @@ p {
 
 footer {
     position: fixed;
-    height: 150px;
+    height: 200px;
     width: 100%;
     background-color: black;
     bottom: 0;
 }
 
+#blocklogo {
+	height: 120px;
+}
+
 #topright img {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
-    line-height: 200%;
     max-width: 328px;
     max-height: 120px;
 }
 
-p.blocktext {
-    text-align: center;
-    color: black;
-    font-size: 20px;
-/***    background-image: url("light_bulbs.jpg");
-    background-size: cover;   
-    background-repeat: no-repeat;  
-    height: 600px; ***/
-    bottom: 10px;
+#container {
+	position: relative;
+}
+
+#mainbak img {
+	width: 100%
+	height: auto;
+	opacity: 0.5;
+}
+
+#socialicon img {
+    vertical-align: bottom;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#blockbody {
+    position: relative;
+    background-image: url("light_bulbs.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+#blocktext {
+    position: relative;
+    align-self: center;
+/*    text-align: center;
+     bottom: 200px;	*/
 }
 
 p.copyright {
     position: relative;
-    width: 100%;
     color: linen;
-    line-height: 200px; 
     font-size: 0.8em;
     text-align: center;
     bottom:0;
-    right: 20px;
 }
