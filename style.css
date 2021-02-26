@@ -18,10 +18,11 @@ p {
  }
 
 footer {
-    position: relative;
-    height: 200px;
+    position: fixed;
+    height: 180px;
     width: 100%;
     background-color: black;
+    bottom: 0;
 }
 
 #topright img {
