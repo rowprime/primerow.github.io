@@ -35,9 +35,7 @@ p.blocktext {
     text-align: center;
     color: white;
     background-image: url("light_bulbs.jpg");
-	width: 100%;
-	height: cover;
-    
+	background-size: auto;    
 }
 
 p.copyright {
