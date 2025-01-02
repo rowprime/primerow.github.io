@@ -1,82 +1,173 @@
+/* General Styles */
 body {
-	background-color: linen;
-	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-	color: white;
-	text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
 }
 
-h1 {
-     font-size:20px;
-     color: white;
+/* Logo Section */
+.logo-container {
+    text-align: right;
+    padding: 1rem;
+    background: linen;
 }
 
-p {
-	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-	color: black;
+.logo-container img {
+    max-width: 150px;
+    height: auto;
 }
 
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
- }
-
-footer {
-    position: fixed;
-    height: 200px;
-    width: 100%;
-    background-color: black;
-    bottom: 0;
-}
-
-#blocklogo {
-	height: 120px;
-}
-
-#topright img {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    max-width: 328px;
-    max-height: 120px;
-}
-
-#container {
-	position: relative;
-}
-
-#mainbak img {
-	width: 100%
-	height: auto;
-	opacity: 0.5;
-}
-
-#socialicon img {
-    vertical-align: bottom;
-    max-width: 40px;
-    max-height: 40px;
-}
-
-#blockbody {
-    position: relative;
-    background-image: url("light_bulbs.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-}
-
-#blocktext {
-    position: relative;
-    align-self: center;
-/*    text-align: center;
-     bottom: 200px;	*/
-}
-
-p.copyright {
-    position: relative;
+/* Navigation Styles */
+nav {
+    background: #333;
     color: linen;
-    font-size: 0.8em;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+/* Hero Section with Overlay */
+.hero {
+    background: url('light_bulbs.jpg') no-repeat center center/cover;
+    color: white;
+    position: relative;
     text-align: center;
-    bottom:0;
+    padding: 5rem 1rem;
+}
+
+.hero .overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    padding: 2rem;
+    border-radius: 10px;
+    display: inline-block;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Buttons */
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: midnightblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover,
+.cta-button:focus,
+.cta-button:active {
+    background: white;
+    color: midnightblue;
+    border: 2px solid midnightblue;
+}
+
+/* Why Invest Section */
+#why-invest {
+    background-color: linen; /* Linen */
+    color: #333;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+/* TEAM Section */
+#team {
+    background-color: #000; /* Black */
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+/* Black background links */
+.blackback-link {
+    color: lightblue;
+    text-decoration: none; /* Optional: removes the underline */
+}
+
+/* Visited state */
+.blackback-link:visited {
+    color: lightpurple; /* Replace 'lightpurple' with your desired shade */
+}
+
+/* Hover state */
+.blackback-link:hover {
+    color: deepskyblue; /* Slightly darker or more vibrant blue */
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
+
+/* Active state (clicked) */
+.blackback-link:active {
+    color: mediumslateblue; /* Choose a noticeable color for when clicked */
+}
+
+/* CONTACT Section */
+#contact {
+    background-color: linen; /* Linen */
+    color: #333;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.contact-icons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contact-icons img {
+    filter: invert(1);
+    height: 25px;
+    width: auto;
+    transition: transform 0.2s ease;
+}
+
+.contact-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: linen;
+    text-align: center;
+    padding: 1rem;
 }
