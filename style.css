@@ -84,8 +84,8 @@ nav ul li a {
 .cta-button {
     display: inline-block;
     padding: 1rem 2rem;
-    background: lightblue;
-    color: white;
+    background: #8599ad; /* Dark grayish blue */
+    color: midnightblue; 
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -96,8 +96,8 @@ nav ul li a {
 .cta-button:focus,
 .cta-button:active {
     background: white;
-    color: lightblue;
-    border: 2px solid lightblue;
+    color: #8599ad; /* Dark grayish blue */
+    border: 2px solid #8599ad; /* Dark grayish blue */
 }
 
 /* Why Invest Section */
